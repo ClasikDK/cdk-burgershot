@@ -45,9 +45,6 @@ Config = {
             label = "Burgershot Stash",
             slots = 50,
             maxWeight = 10000000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1196.42, -900.94, 13.89),
                 size = vector3(0.7, 3.0, 2.4),
@@ -71,9 +68,6 @@ Config = {
             label = "Burgershot Big Stash",
             slots = 50,
             maxWeight = 100000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1203.43, -897.1, 14.1),
                 size = vector3(1.2, 3.25, 2.8),
@@ -92,47 +86,19 @@ Config = {
             }
         },
 
-        ["burgershotKitchen1"] = {
-            id = "burgershotKitchen1",
-            label = "Burgershot Kitchen 1",
+        ["burgershotKitchen"] = {
+            id = "burgershotKitchen",
+            label = "Burgershot Kitchen",
             slots = 20,
-            maxWeight = 30000,
-            groups = {
-                ["burgershot"] = 0
-            },
+            maxWeight = 100000,
             target = {
-                coords = vector3(-1194.37, -896.72, 13.89),
-                size = vector3(1.0, 1.55, 1.8),
+                coords = vector3(-1195.13, -896.39, 13.89),
+                size = vector3(0.6, 3.2, 3.0),
                 rotation = 75,
                 debug = false,
                 options = {
-                    label = "Kitchen 1",
-                    name = "burgershotKitchen1",
-                    icon = "fas fa-box",
-                    distance = 1.5,
-                    groups = {
-                        ["burgershot"] = 0
-                    },
-                    event = "burgershot:client:openStash",
-                },
-            }
-        },
-        ["burgershotKitchen2"] = {
-            id = "burgershotKitchen2",
-            label = "Burgershot Kitchen 2",
-            slots = 20,
-            maxWeight = 30000,
-            groups = {
-                ["burgershot"] = 0
-            },
-            target = {
-                coords = vector3(-1195.89, -896.3, 13.89),
-                size = vector3(1.0, 1.6, 1.8),
-                rotation = 75,
-                debug = false,
-                options = {
-                    label = "Kitchen 2",
-                    name = "burgershotKitchen2",
+                    label = "Kitchen",
+                    name = "burgershotKitchen",
                     icon = "fas fa-box",
                     distance = 1.5,
                     groups = {
@@ -148,9 +114,6 @@ Config = {
             label = "Burgershot Counter 1",
             slots = 5,
             maxWeight = 10000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1196.84, -892.76, 14.1),
                 size = vector3(0.6, 0.6, 0.5),
@@ -173,9 +136,6 @@ Config = {
             label = "Burgershot Counter 2",
             slots = 5,
             maxWeight = 10000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1194.63, -893.37, 14.1),
                 size = vector3(0.6, 1.0, 0.5),
@@ -198,9 +158,6 @@ Config = {
             label = "Burgershot Counter 3",
             slots = 5,
             maxWeight = 10000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1192.83, -893.86, 14.1),
                 size = vector3(0.6, 0.65, 0.5),
@@ -223,9 +180,6 @@ Config = {
             label = "Burgershot Counter 4",
             slots = 5,
             maxWeight = 10000,
-            groups = {
-                ["burgershot"] = 0
-            },
             target = {
                 coords = vector3(-1190.88, -894.35, 14.1),
                 size = vector3(0.45, 0.65, 0.5),
@@ -453,8 +407,8 @@ Config = {
 
     CraftingSpots = {
         ["chopping_board"] = {
-            coords = vector3(-1195.41, -897.46, 13.89),
-            size = vector3(1.0, 5.2, 2.4),
+            coords = vector3(-1195.41, -897.46, 13.69),
+            size = vector3(1.0, 5.2, 0.5),
             rotation = 75,
             debug = false,
             options = {
@@ -469,8 +423,8 @@ Config = {
             }
         },
         ["fryer"] = {
-            coords = vector3(-1196.13, -900.09, 13.89),
-            size = vector3(1.0, 2.6, 2.4),
+            coords = vector3(-1196.13, -900.09, 13.8),
+            size = vector3(1.0, 2.6, 0.5),
             rotation = 75,
             debug = false,
             options = {
@@ -486,7 +440,7 @@ Config = {
         },
         ["soda"] = {
             coords = vector3(-1190.87, -898.97, 13.89),
-            size = vector3(1.0, 2.4, 2.4),
+            size = vector3(1.3, 2.7, 2.5),
             rotation = 125,
             debug = false,
             options = {
