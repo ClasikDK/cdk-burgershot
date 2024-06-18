@@ -106,10 +106,3 @@ CreateThread(function()
     AddTextComponentSubstringPlayerName(Config.Blip.Label)
     EndTextCommandSetBlipName(blip)
 end)
-
-
-
-
-RegisterCommand("burgershot", function()
-    TriggerEvent("burgershot:client:openShop")
-end)
